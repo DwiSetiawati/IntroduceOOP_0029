@@ -27,3 +27,11 @@ public:
         cout << "Masukkan luasnya: " << luas << endl;
     }
 };
+
+int main()
+{
+    Persegi_panjang kanan;
+    kanan.input_data();
+    kanan.hitung_luas();
+    kanan.output_data();
+}
